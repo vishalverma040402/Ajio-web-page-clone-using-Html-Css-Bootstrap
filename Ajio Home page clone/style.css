@@ -1,0 +1,114 @@
+/* id styling */
+
+#logo{
+  height: 45%;
+}
+#logo-container{
+    display: flex;
+    align-items: center;
+}
+#nav-categories{
+    display: flex;
+    align-items: end;
+    padding-bottom: .5%;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+#nav-utilities{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 1.5%;
+    padding-bottom: .5%;
+}
+#search-bar{
+    border-radius: 1000px;
+    background-color:rgb(243,243,227);
+    border: 1px solid black;
+    padding: .8% 3%;
+    width: 75%;
+}
+#login{
+    display: flex;
+}
+
+
+
+/* classes styling */
+.nav-bar{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    height: 12vh;
+}
+.nav-container-div{
+    width: 33%;
+    display: flex;
+    /* display: inline; */
+}
+.signin{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+}
+.carousel.slide{
+    margin: .8%;
+}
+.ajio-exclusive{
+    width: 100%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+
+}
+
+/* .carousel.slide:hover{
+    transform: scale(1.05);
+    transition-duration: 2s;
+} */
+    
+
+.photos:hover{
+    transform: scale(1.05);
+    transition-duration: 2s;
+}
+.block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-color:rgba(234, 231, 231, 0.963);
+}
+
+.foot{
+    background-color: #2c4152;
+    color: white;
+    font-size: smaller;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    vertical-align: top;
+    border-bottom: 1px solid white;
+    line-height: 2.5;
+}
+
+.heading{
+    margin-top: 40px;
+    display: flex;
+    
+}
+.phase{
+    height: 100px;
+    background-color: #2c4152;
+    color: white;
+
+/* tag styling */
+*{
+   
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
